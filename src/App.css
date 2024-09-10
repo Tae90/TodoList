@@ -36,6 +36,9 @@
   border-bottom: 1px solid royalblue;
   padding-left: 12px;
   font-size: 18px;
+  outline: none;
+  color: blue;
+  font-weight: bold;
 }
 
 .form .btn {
@@ -109,4 +112,15 @@ ul {
 .todoItem input:checked~label {
   background-color: cornflowerblue;
   border: 3px solid blue;
+}
+
+.todoItem input:checked~span {
+  text-decoration: line-through;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10px 10px 0;
 }

@@ -5,7 +5,7 @@ const TodoItem = ({ todo }) => {
         <li className='todoItem'>
             <div className='item'>
                 <input type='checkbox' id={todo.no} />
-                <label htmlFor='{todo.no}'></label>
+                <label htmlFor={todo.no}></label>
                 <span>{todo.name}</span>
             </div>
             <div className='item'>
