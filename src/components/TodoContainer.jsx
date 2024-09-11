@@ -4,12 +4,12 @@ import TodoInput from './TodoInput'
 import TodoList from './TodoList'
 import TodoFooter from './TodoFooter'
 
-const TodoContainer = () => {
+const TodoContainer = ({ todoList }) => {
     return (
         <div className='container'>
             <TodoHeader />
             <TodoInput />
-            <TodoList />
+            <TodoList todoList={todoList} />
             <TodoFooter />
         </div>
     )
